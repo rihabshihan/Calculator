@@ -103,4 +103,28 @@ body{
     }
 }
 
+@media (max-width:400px) {
+    .container {
+        width: 250px;
+        height: 452px;
+
+    }
+
+    .button {
+        margin-left: 15px;
+        margin-right: 17px;
+        width: 34px;
+        height: 51px;
+        margin-left: 8px;
+        font-size: 1.5rem;
+    }
+
+    #screen {
+        width:229px ;
+        height: 70px;
+        margin-bottom: 12px;
+    }
+}
+
+
 
