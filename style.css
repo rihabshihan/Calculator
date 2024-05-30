@@ -81,7 +81,7 @@ body{
 }
 
 
-@media (max-width:500px) {
+@media (max-width:560px) {
     .container {
         width: 292px;
         height: 462px;
@@ -103,50 +103,82 @@ body{
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:480px) {
     .container {
-        width: 250px;
-        height: 452px;
+        width: 249px;
+        height: 431px;
 
     }
 
     .button {
-        margin-left: 15px;
-        margin-right: 17px;
-        width: 34px;
+        margin-left: 7px;
+        margin-right: 6px;
+        width: 46px;
         height: 51px;
-        margin-left: 8px;
         font-size: 1.5rem;
     }
 
     #screen {
         width:229px ;
-        height: 70px;
+        height: 60px;
         margin-bottom: 12px;
+    }
+
+    p{
+        font-size: 1.3rem;
     }
 }
 
 
 
-@media (max-width:400px) {
+@media (max-width:380px) {
     .container {
-        width: 250px;
-        height: 452px;
+        width: 238px;
+        height: 422px;
 
     }
 
     .button {
-        margin-left: 15px;
-        margin-right: 17px;
-        width: 34px;
+        margin-left: 7px;
+        margin-right: 5px;
+        width: 44px;
         height: 51px;
-        margin-left: 8px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     #screen {
-        width:229px ;
-        height: 70px;
+        width:218px ;
+        height: 52px;
         margin-bottom: 12px;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:350px) {
+    .container {
+        width: 194px;
+        height: 400px;
+
+    }
+
+    .button {
+        margin-left: 6px;
+        margin-right: 5px;
+        width: 34px;
+        height: 48px;
+        font-size: 1.3rem;
+    }
+
+    #screen {
+        width:175px ;
+        height: 47px;
+        margin-bottom: 4px;
+    }
+
+    p{
+        font-size: 1.1rem;
     }
 }
